@@ -5,7 +5,7 @@
                 <UColorModeToggle />
 
             <div id="maplayout" class="flex justify-center">
-                <MapboxMap></MapboxMap>
+                <!-- <MapboxMap></MapboxMap> -->
             </div>
 
     </div>

@@ -19,7 +19,10 @@ export default defineNuxtConfig({
   },
 
   extends: ['@nuxt/ui-pro'],
-  modules: ['@nuxt/ui'],
+  modules: [
+  '@nuxt/ui', 
+  '@nuxt/fonts'
+  ],
   ui: {
     global: true
   },

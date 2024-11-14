@@ -19,11 +19,11 @@
 
 </script>
 <template>
-    <div id='mapContainer' class="mapContainer container"></div>
+    <div id='mapContainer' class="mapContainer"></div>
 </template>
 <style>
 @import url("mapbox-gl/dist/mapbox-gl.css");
 .mapContainer {
-    position: absolute; height: 80%; width: 100%;
+    height: 500px; width: 100%;
 }
 </style>
