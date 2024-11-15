@@ -2,6 +2,7 @@
     import { ref, onMounted } from 'vue'
     import mapboxgl from 'mapbox-gl';
     const runtimeConfig = useRuntimeConfig()
+    const mapContainerref = ref();
 
     onMounted(() => {
         //console.log("maptoken: ", mapconfig);
@@ -11,15 +12,16 @@
             style: "mapbox://styles/mapbox/streets-v12", // Replace with your preferred map style
             center: [-71.224518, 42.213995],
             zoom: 9,
-            container: 'mapContainer'
+            container: mapContainerref.value
         })
+        console.log('mapvalue ', mapContainerref)
 
         
     })
 
 </script>
 <template>
-    <div id='mapContainer' class="mapContainer"></div>
+    <div id='' class="mapContainer" ref="mapContainerref"></div>
 </template>
 <style>
 @import url("mapbox-gl/dist/mapbox-gl.css");

@@ -10,9 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^2.13.4",
     "@nuxt/ui-pro": "^1.5.0",
+    "@tresjs/cientos": "^4.0.3",
+    "@tresjs/nuxt": "^3.0.7",
     "mapbox-gl": "^3.8.0",
     "nuxt": "^3.14.159",
+    "three": "^0.170.0",
     "vue": "latest",
     "vue-router": "latest"
   },

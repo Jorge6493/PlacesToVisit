@@ -37,6 +37,9 @@ const links = [{
   icon: 'i-simple-icons-stackblitz',
   // target: '_blank',
   to: '/map'
+},{
+  label: '3D Model',
+  to: '/3dmodel'
 }, {
   label: 'Blog',
   to: '/blog'
