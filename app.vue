@@ -1,29 +1,3 @@
-<!-- <script setup lang="ts">
-</script>
-<template>
-    <UContainer class="flex space-x-4 justify-center">
-      <ULink
-      class=""
-      to="/"
-      active-class="text-primary"
-      inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
-    >
-      Home
-    </ULink>
-    <ULink
-    class=""
-      to="/NewPage"
-      active-class="text-primary"
-      inactive-class="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
-    >
-      Map
-    </ULink>
-  </UContainer>
-  <UContainer>
-    <NuxtPage />
-  </UContainer>
-</template> -->
-
 <script setup lang="ts">
 const links = [{
   label: 'Home',
